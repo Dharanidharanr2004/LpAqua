@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  background-image: url(koi2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  
+  
+}
+
+
+  
+
+nav ul{
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  list-style: none;
+  
+}
+nav li{
+  height:50px;
+}
+nav  a{
+  height:100%;
+  padding:0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items:center;
+  color:darkcyan;
+  font-weight:bolder;
+font-size:large;
+
+}
+
+
+
+nav{
+  backdrop-filter: blur(30px);
+  border: 1.5px solid rgba(255,255,255,0.18);
+  border-radius: none;
+
+}
+ nav li:first-child{
+  margin-right: auto;
+  font-size: xx-large;
+  color:black;
+}
+.hd{
+  color:magenta;
+  font-size: xx-large;
+}
+
+
+nav li:not(:first-child):hover{
+
+  border-radius: 25px;
+background-color:grey;
+
+
+}
+
+
+
+
